@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #FF6900;
+    font-family: sans-serif;
+    padding-block: 1%;
+}
+
+.barra-di-navigazione{ 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+header nav ul{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+header nav figure img{
+    width: 30%;
+}
+
+header nav figure{
+    width: 30%;
+    text-align: center;
+}
+
+header nav ul:last-child > li{
+    max-width: 30%;
+}
+
+header nav ul:last-child > li img{
+    width: 20px;
+    fill: white;
+}

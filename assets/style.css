@@ -110,3 +110,28 @@ header nav ul:last-child > li img{
     padding: 10px;
     background-color: white;
 }
+
+footer{
+    padding-block: 1%;
+    padding-inline: 10%;
+    background-color: #1A191A;
+    font-family: sans-serif;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+}
+
+footer ul > li{
+   width: 25px;
+}
+
+footer ul li img{
+    width: 100%;
+}
+

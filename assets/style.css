@@ -52,6 +52,11 @@ header nav ul:last-child > li img{
     fill: white;
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card{
     padding: 8% 3% 3% 0;
     width: calc(100% / 3);
@@ -106,7 +111,7 @@ header nav ul:last-child > li img{
 .like{
     position: absolute;
     top: 20%;
-    right: 30px;
+    right: 20px;
     padding: 10px;
     background-color: white;
 }
@@ -135,3 +140,12 @@ footer ul li img{
     width: 100%;
 }
 
+.sostenibilita1{
+    position: absolute;
+    bottom: 20%;
+    left: 0px;
+    padding: 7px;
+    background-color: green;
+    color: white;
+    font-family: sans-serif;
+}
